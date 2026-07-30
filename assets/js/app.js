@@ -1,5 +1,5 @@
 import "./components/ambient-scene.js?v=20260730-3";
-import "./components/service-drawer.js?v=20260730-3";
+import "./components/service-drawer.js?v=20260730-4";
 import "./components/pet-world.js?v=20260730-3";
 
 const onReady = (callback) => {

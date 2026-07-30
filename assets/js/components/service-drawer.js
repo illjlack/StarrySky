@@ -24,14 +24,6 @@ const SERVICES = [
     group: "pages",
   },
   {
-    title: "P2P SSH (Headscale)",
-    value: "https://p2p-origin.liuhuan.help/",
-    href: "https://p2p-origin.liuhuan.help/",
-    state: "tailnet",
-    port: 443,
-    group: "pages",
-  },
-  {
     title: "Service Guides",
     value: "https://liuhuan.help/guides/",
     href: "https://liuhuan.help/guides/",
@@ -90,7 +82,6 @@ const STATE_LABELS = {
   learn: "LEARN",
   questions: "QUESTIONS",
   protected: "PROTECTED",
-  tailnet: "TAILNET",
   docs: "DOCS",
   panel: "PANEL",
   wss: "WSS",
