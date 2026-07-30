@@ -8,18 +8,18 @@ const SERVICES = [
     group: "pages",
   },
   {
-    title: "Questions",
-    value: "https://questions.liuhuan.help/",
-    href: "https://questions.liuhuan.help/",
-    state: "questions",
-    port: 443,
-    group: "pages",
-  },
-  {
     title: "Wake Console",
     value: "https://liuhuan.help/wake/",
     href: "https://liuhuan.help/wake/",
     state: "protected",
+    port: 443,
+    group: "pages",
+  },
+  {
+    title: "P2P SSH (Headscale)",
+    value: "https://p2p-origin.liuhuan.help/",
+    href: "https://p2p-origin.liuhuan.help/",
+    state: "tailnet",
     port: 443,
     group: "pages",
   },
@@ -80,8 +80,8 @@ const GROUPS = [
 
 const STATE_LABELS = {
   learn: "LEARN",
-  questions: "QUESTIONS",
   protected: "PROTECTED",
+  tailnet: "TAILNET",
   docs: "DOCS",
   panel: "PANEL",
   wss: "WSS",
