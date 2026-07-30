@@ -6,6 +6,8 @@
 
 **[打开 liuhuan.help 体验 StarrySky →](https://liuhuan.help/)**
 
+[![StarrySky 在线效果](./docs/starrysky-preview.png)](https://liuhuan.help/)
+
 ## 组成
 
 - `ambient-scene`：晨、昼、暮、夜切换，太阳轨迹、月相、云、树、草与轻微视差。
@@ -32,6 +34,11 @@ python -m http.server 8080
 
 页面中的宠物单击后随机播放一个非移动动作；拖动超过阈值时只移动和落地，不触发点击动作。
 
-## 权利
+## 许可
 
-本仓库未附开源许可证。除非获得仓库所有者的明确书面授权，不授予复制、再发布、衍生或商业使用代码、美术与宠物资产的权利。
+除下列两只宠物外，本仓库的代码、页面与美术资源采用 [MIT License](./LICENSE)，允许使用、复制、修改、发布、分发、再许可及商业使用：
+
+- `assets/pets/noirrose/**`（NoirRose）
+- `assets/pets/miemieyan/**`（MieMieYan）
+
+上述两个宠物目录及其角色形象、动画、配置和衍生素材不适用 MIT License，未经明确书面授权不得提取、修改、再发布、制作衍生作品或用于商业用途。完整条款见 [宠物素材许可说明](./assets/pets/LICENSE.md)。
