@@ -1,6 +1,7 @@
 # StarrySky
 
 一幅随浏览器本地时间变化的油画场景，以及两只由 JSON 动作清单驱动的桌面宠物。
+(One day, I asked ChatGPT to build it. The rest is history.)
 
 ## 在线效果
 
