@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#182a64">
+    <meta name="description" content="LiuHuan 的个人空间。">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests"
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:title" content="LiuHuan">
+    <meta property="og:description" content="一片随时间流动的天空。">
+    <meta property="og:url" content="https://liuhuan.help/">
+    <meta name="twitter:card" content="summary">
+    <title>LiuHuan</title>
+    <link rel="canonical" href="https://liuhuan.help/">
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/art/sky-impasto-v2.webp"
+      type="image/webp"
+      fetchpriority="high"
+    >
+    <link rel="stylesheet" href="/assets/css/site.css?v=20260730-3">
+    <script type="module" src="/assets/js/app.js?v=20260730-3"></script>
+  </head>
+  <body class="art-page">
+    <a class="skip-link" href="#main-content">跳到场景</a>
+
+    <ambient-scene aria-hidden="true"></ambient-scene>
+
+    <header class="site-header scene-chrome">
+      <a class="brand" href="/" aria-label="返回首页">LIUHUAN.HELP</a>
+      <button
+        class="quiet-button scene-mode"
+        type="button"
+        data-scene-mode
+        aria-label="切换昼夜显示方式"
+        title="切换昼夜显示方式"
+      >
+        <span class="scene-mode-icon" aria-hidden="true">◐</span>
+        <span class="visually-hidden" data-scene-mode-label>跟随本地时间</span>
+      </button>
+    </header>
+
+    <main id="main-content" class="art-stage" tabindex="-1" aria-label="动态艺术场景">
+      <h1 class="visually-hidden">LiuHuan 的个人空间</h1>
+    </main>
+
+    <footer class="scene-footer">
+      <div class="scene-time" aria-label="浏览器本地时间">
+        <time class="local-clock" data-local-time>--:--</time>
+        <span data-local-date>读取日期</span>
+        <span aria-hidden="true">·</span>
+        <span data-phase-label>读取天色</span>
+      </div>
+
+      <nav class="scene-actions" aria-label="页面入口">
+        <a
+          class="repository-link"
+          href="https://github.com/illjlack/StarrySky"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="在 GitHub 查看 StarrySky 项目仓库"
+        >
+          GitHub
+        </a>
+        <button
+          class="service-trigger service-trigger-minimal"
+          type="button"
+          data-open-services
+          aria-haspopup="dialog"
+          aria-expanded="false"
+        >
+          服务
+        </button>
+      </nav>
+    </footer>
+
+    <service-drawer></service-drawer>
+    <pet-world
+      noirrose="/assets/pets/noirrose/pet.json"
+      miemieyan="/assets/pets/miemieyan/pet.json"
+      pet-size="120"
+      ground-offset="18"
+      roam
+    ></pet-world>
+
+    <noscript>
+      <p class="noscript">请启用 JavaScript 查看动态场景。</p>
+    </noscript>
+  </body>
+</html>

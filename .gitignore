@@ -1,0 +1,9 @@
+homepage-release.tar.gz
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+staging/
+work/

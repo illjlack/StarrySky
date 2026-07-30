@@ -1,0 +1,171 @@
+{
+  "manifestVersion": 2,
+  "id": "miemieyan",
+  "displayName": "MieMieYan",
+  "description": "一只软乎乎的紫发小羊，会跑动、招手、跳跃，也会陪你安静工作。",
+  "spritesheetPath": "spritesheet.webp",
+  "atlas": {
+    "columns": 8,
+    "rows": 11,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "previewFrame": {
+      "row": 0,
+      "column": 0
+    }
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "row": 0,
+      "frames": [
+        {"column": 0, "durationMs": 280},
+        {"column": 1, "durationMs": 110},
+        {"column": 2, "durationMs": 110},
+        {"column": 3, "durationMs": 140},
+        {"column": 4, "durationMs": 140},
+        {"column": 5, "durationMs": 320}
+      ],
+      "loop": true,
+      "menu": false,
+      "randomWeight": 0
+    },
+    {
+      "id": "move-right",
+      "label": "向右移动",
+      "row": 1,
+      "frames": [
+        {"column": 0, "durationMs": 120},
+        {"column": 1, "durationMs": 120},
+        {"column": 2, "durationMs": 120},
+        {"column": 3, "durationMs": 120},
+        {"column": 4, "durationMs": 120},
+        {"column": 5, "durationMs": 120},
+        {"column": 6, "durationMs": 120},
+        {"column": 7, "durationMs": 220}
+      ],
+      "loop": true,
+      "menu": false,
+      "randomWeight": 0
+    },
+    {
+      "id": "move-left",
+      "label": "向左移动",
+      "row": 2,
+      "frames": [
+        {"column": 0, "durationMs": 120},
+        {"column": 1, "durationMs": 120},
+        {"column": 2, "durationMs": 120},
+        {"column": 3, "durationMs": 120},
+        {"column": 4, "durationMs": 120},
+        {"column": 5, "durationMs": 120},
+        {"column": 6, "durationMs": 120},
+        {"column": 7, "durationMs": 220}
+      ],
+      "loop": true,
+      "menu": false,
+      "randomWeight": 0
+    },
+    {
+      "id": "wave",
+      "label": "打招呼",
+      "row": 3,
+      "frames": [
+        {"column": 0, "durationMs": 140},
+        {"column": 1, "durationMs": 140},
+        {"column": 2, "durationMs": 140},
+        {"column": 3, "durationMs": 280}
+      ],
+      "loop": false,
+      "menu": true,
+      "randomWeight": 1
+    },
+    {
+      "id": "jump",
+      "label": "跳跃",
+      "row": 4,
+      "frames": [
+        {"column": 0, "durationMs": 140},
+        {"column": 1, "durationMs": 140},
+        {"column": 2, "durationMs": 140},
+        {"column": 3, "durationMs": 140},
+        {"column": 4, "durationMs": 280}
+      ],
+      "loop": false,
+      "menu": true,
+      "randomWeight": 1
+    },
+    {
+      "id": "failed",
+      "label": "沮丧",
+      "row": 5,
+      "frames": [
+        {"column": 0, "durationMs": 140},
+        {"column": 1, "durationMs": 140},
+        {"column": 2, "durationMs": 140},
+        {"column": 3, "durationMs": 140},
+        {"column": 4, "durationMs": 140},
+        {"column": 5, "durationMs": 140},
+        {"column": 6, "durationMs": 140},
+        {"column": 7, "durationMs": 240}
+      ],
+      "loop": false,
+      "menu": true,
+      "randomWeight": 1
+    },
+    {
+      "id": "waiting",
+      "label": "等待",
+      "row": 6,
+      "frames": [
+        {"column": 0, "durationMs": 150},
+        {"column": 1, "durationMs": 150},
+        {"column": 2, "durationMs": 150},
+        {"column": 3, "durationMs": 150},
+        {"column": 4, "durationMs": 150},
+        {"column": 5, "durationMs": 260}
+      ],
+      "loop": false,
+      "menu": true,
+      "randomWeight": 1
+    },
+    {
+      "id": "working",
+      "label": "专注工作",
+      "row": 7,
+      "frames": [
+        {"column": 0, "durationMs": 120},
+        {"column": 1, "durationMs": 120},
+        {"column": 2, "durationMs": 120},
+        {"column": 3, "durationMs": 120},
+        {"column": 4, "durationMs": 120},
+        {"column": 5, "durationMs": 220}
+      ],
+      "loop": false,
+      "menu": true,
+      "randomWeight": 1
+    },
+    {
+      "id": "review",
+      "label": "认真检查",
+      "row": 8,
+      "frames": [
+        {"column": 0, "durationMs": 150},
+        {"column": 1, "durationMs": 150},
+        {"column": 2, "durationMs": 150},
+        {"column": 3, "durationMs": 150},
+        {"column": 4, "durationMs": 150},
+        {"column": 5, "durationMs": 280}
+      ],
+      "loop": false,
+      "menu": true,
+      "randomWeight": 1
+    }
+  ],
+  "bindings": {
+    "idle": "idle",
+    "moveLeft": "move-left",
+    "moveRight": "move-right"
+  }
+}
