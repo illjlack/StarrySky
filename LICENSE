@@ -13,9 +13,11 @@ the MIT License:
 - assets/pets/noirrose/**
 - assets/pets/miemieyan/**
 
-These directories include the NoirRose and MieMieYan character designs,
-spritesheets, animation manifests, and derivative pet materials. They are
-governed solely by assets/pets/LICENSE.md.
+NoirRose and MieMieYan are original characters created by friends of the
+repository owner. Rights in each character and its related materials remain
+with the respective original creator. Their inclusion in this repository is
+for project display only and grants no license or permission to repository
+users. These directories are governed solely by assets/pets/LICENSE.md.
 
 MIT License
 -----------
