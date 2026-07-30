@@ -1,6 +1,10 @@
 # StarrySky
 
-[liuhuan.help](https://liuhuan.help/) 的动态个人主页：一幅随浏览器本地时间变化的油画场景，以及两只由 JSON 动作清单驱动的桌面宠物。
+一幅随浏览器本地时间变化的油画场景，以及两只由 JSON 动作清单驱动的桌面宠物。
+
+## 在线效果
+
+**[打开 liuhuan.help 体验 StarrySky →](https://liuhuan.help/)**
 
 ## 组成
 
